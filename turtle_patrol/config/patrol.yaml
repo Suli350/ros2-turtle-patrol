@@ -1,0 +1,8 @@
+patrol_node:
+  ros__parameters:
+    # Flat list of x, y pairs inside the 11 x 11 turtlesim window
+    waypoints: [2.0, 2.0, 9.0, 2.0, 9.0, 9.0, 5.5, 5.5, 2.0, 9.0]
+    linear_speed: 2.0
+    angular_gain: 5.0
+    goal_tolerance: 0.15
+    control_rate: 20.0
